@@ -27,7 +27,7 @@ A basic config example would look like this:
 $app->register(new Klickagent\SilexWsse\WsseAuthServiceProvider(), array(
     'wsse.security_dir'         => __DIR__ . '/../cache/security',
     'wsse.valid_time_window'    => 300,
-    'wsse.user'                 => $app->share(function ($app) { return $app['dao.user']; })
+    'wsse.user'                 => function ($app) { return $app['dao.user']; }
 ));
 ```
 
