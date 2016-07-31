@@ -1,13 +1,13 @@
 <?php
 
-namespace Guigzz\Wsse;
+namespace Guigzz\SilexWsse;
 
 use Symfony\Component\Security\Core\Authentication\Provider\AuthenticationProviderInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\Exception\NonceExpiredException;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
-use Guigzz\Wsse\WsseUserToken;
+use Guigzz\SilexWsse\WsseUserToken;
 
 class WsseProvider implements AuthenticationProviderInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Guigzz\Wsse;
+namespace Guigzz\SilexWsse;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
@@ -8,7 +8,7 @@ use Symfony\Component\Security\Core\Authentication\AuthenticationManagerInterfac
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Http\Firewall\ListenerInterface;
-use Guigzz\Wsse\WsseUserToken;
+use Guigzz\SilexWsse\WsseUserToken;
 
 class WsseListener implements ListenerInterface
 {
