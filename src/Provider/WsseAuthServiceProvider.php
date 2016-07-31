@@ -1,12 +1,12 @@
 <?php
 
-namespace Guigzz\SilexWsse\Provider;
+namespace Klickagent\SilexWsse\Provider;
 
 use Silex\Application;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Guigzz\SilexWsse\WsseProvider;
-use Guigzz\SilexWsse\WsseListener;
+use Klickagent\SilexWsse\WsseProvider;
+use Klickagent\SilexWsse\WsseListener;
 
 class WsseAuthServiceProvider implements ServiceProviderInterface {
     

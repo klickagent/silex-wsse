@@ -1,3 +1,5 @@
+Clone from https://github.com/guigzz/silex-wsse. Added silex 2 support, corrected config sample with namespace.
+
 # Silex WSSE authentication
 
 This library provides an implementation of WSSE authentication based on the [Symfony2 documentation](http://symfony.com/doc/current/cookbook/security/custom_authentication_provider.html).
@@ -14,7 +16,7 @@ This library provides an implementation of WSSE authentication based on the [Sym
 
 ## Usage
 
-* Register the Guigzz\Wsse\WsseAuthServiceProvider
+* Register the Klickagent\Wsse\WsseAuthServiceProvider
 * Pass you own User provider to the Wsse provider
 * Use it in your security firewall config
 * You are done!
@@ -22,7 +24,7 @@ This library provides an implementation of WSSE authentication based on the [Sym
 A basic config example would look like this:
 
 ```php
-$app->register(new Guigzz\Wsse\WsseAuthServiceProvider(), array(
+$app->register(new Klickagent\SilexWsse\WsseAuthServiceProvider(), array(
     'wsse.security_dir'         => __DIR__ . '/../cache/security',
     'wsse.valid_time_window'    => 300,
     'wsse.user'                 => $app->share(function ($app) { return $app['dao.user']; })

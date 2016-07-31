@@ -1,14 +1,19 @@
 {
-    "name":         "guigzz/silex-wsse",
+    "name":         "klickagent/silex-wsse",
     "license":      "MIT",
     "type":         "library",
-    "description":  "Full WSSE authentication for silex projects based on Symfony2 documentation",
-    "homepage":     "https://github.com/guigzz/silex-wsse",
-    "keywords":     ["wsse", "authentication", "auth", "silex", "webservice", "api", "stateless"],
+    "description":  "Clone from https://github.com/guigzz/silex-wsse. (Full WSSE authentication for silex projects based on Symfony2 documentation). Added silex 2.0 support",
+    "homepage":     "https://github.com/klickagent/silex-wsse",
+    "keywords":     ["wsse", "authentication", "auth", "silex", "silex2", "webservice", "api", "stateless"],
     "authors": [
         {
             "name": "Guillaume Sallaber",
             "email": "guillaume.sallaber@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Roman Lickel",
+            "email": "hello@klickagent.ch",
             "role": "Developer"
         }
     ],
@@ -20,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Guigzz\\SilexWsse\\": "src"
+            "Klickagent\\SilexWsse\\": "src"
         }
     }
 }

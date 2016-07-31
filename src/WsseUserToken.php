@@ -1,6 +1,6 @@
 <?php
 
-namespace Guigzz\SilexWsse;
+namespace Klickagent\SilexWsse;
 
 use Symfony\Component\Security\Core\Authentication\Token\AbstractToken;
 
