@@ -10,7 +10,7 @@ This library provides an implementation of WSSE authentication based on the [Sym
 
 ```json
 "require": {
-	"guigzz/silex-wsse": "~0.1.0"
+	"klickagent/silex-wsse": "~0.1.0"
 }
 ```
 
